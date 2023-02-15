@@ -27,3 +27,18 @@
     width: 1200px;
     height: 666px;
 }
+
+/* End of the background part */
+
+#logo {
+    position: absolute;
+    left:685px;
+    right:567px;
+    top:274px;
+    bottom:485px;
+} /* First logo layout */
+
+div.first-part div {
+    color: #EEEEEE;
+    
+} /* First logo layout */
