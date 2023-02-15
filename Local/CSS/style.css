@@ -1,16 +1,27 @@
-.fstlogo {
-    position: absolute;
-    left:685px;
-    right:567px;
-    top:274px;
-    bottom:485px;
+* {
+    margin: 0px;
+    padding: 0px;
+
 }
 
-.fstpage {
-    position: absolute;
-    left:503px;
-    right:386px;
-    top:510px;
-    bottom:256px;
+.first-part{
+    background-image: url("lines.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 1315px;
+    height: 822px;
+}
 
+.second-part{
+    background-color:#EEEEEE ;
+    width: 1200px;
+    height: 700px;
+}
+
+.third-part{
+    background-image: url("people.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 666px;
 }
