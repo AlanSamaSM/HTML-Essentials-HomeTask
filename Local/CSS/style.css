@@ -10,6 +10,8 @@
     background-size: cover;
     width: 1315px;
     height: 822px;
+    position: relative;
+    left: -116px;
 }
 
 .second-part{
