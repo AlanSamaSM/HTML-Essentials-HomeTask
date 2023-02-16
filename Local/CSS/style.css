@@ -1,7 +1,5 @@
 * {
     margin: 0px;
-    padding: 0px;
-
 }
 
 .first-part{
@@ -28,17 +26,65 @@
     height: 666px;
 }
 
-/* End of the background part */
+/* -----------------End of the background part -------------*/
 
-#logo {
+#hero-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    left:685px;
-    right:567px;
-    top:274px;
-    bottom:485px;
-} /* First logo layout */
+    width: 426px;
+    height: 292px;
+    left: 387px;
+    top: 252px;
 
-div.first-part div {
-    color: #EEEEEE;
-    
-} /* First logo layout */
+} 
+
+.hero_logo {
+    margin-bottom: 13px;
+}
+
+div#hero-block h1 {
+    margin-bottom: 42px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    /* or 133% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+div#hero-block h2 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+} 
+
+/*--------------- Hero part ends---------------*/
+
+.button_style{
+    background-image: url("buttonblue.svg");
+    height: 36px;
+    width: 115px;
+    border: 0px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+} 
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 515px;
+    position: relative;
+}
