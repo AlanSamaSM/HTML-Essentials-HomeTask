@@ -34,10 +34,8 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    width: 426px;
-    height: 292px;
-    left: 387px;
-    top: 252px;
+    left: 503px;
+    top: 274px;
 
 } 
 
@@ -141,6 +139,7 @@ div#hero-block h2 {
 }
 
 #prefooter h2{
+    margin-top: 84px;
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 700;
@@ -152,13 +151,64 @@ div#hero-block h2 {
 }
 
 #prefooter button{
+    margin-top: 53px;
     height: 150px;
     width: 150px;
     border: 0px;
     background-image: url("play.svg");
     border-radius: 50%;    
+    font-size: 70px;
+    color: #FFFFFF
 }
 
-#playbutton
+#prefooter h3 {
+    margin-top: 70px;
+    height: 102px;
+    width: 390px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    text-align: center;
+    color: #FFFFFF
+}
 
+#footer {
+    width: 1200px;
+    height: 170px;
+    background: #464547;
+}
+
+.footer-logo{
+    margin-top: 19px;
+    display: flex;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    position: absolute;
+    left: 145px;
+    top: 2185px;
+}
+
+.footer-logo p{
+    margin-left: 16px;
+    color: #FFFFFF
+}
+
+.footertext {
+    position: absolute;
+    left: 140px;
+    top: 2238px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.4);
+}
 
