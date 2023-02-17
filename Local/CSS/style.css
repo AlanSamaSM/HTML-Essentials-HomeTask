@@ -78,13 +78,87 @@ div#hero-block h2 {
     text-align: center;
     letter-spacing: 0.1em;
     color: #FFFFFF;
+    padding: 0px;
+    margin-top: 21px;
 } 
 
 #main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:baseline;
     align-items: center;
-    height: 515px;
     position: relative;
 }
+
+#main h2{
+    height: 119px;
+    width: 669px;
+    margin-top: 87px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    /* or 133% */
+    text-align: center;
+    color: #464547;
+}
+
+#main h3{
+    height: 57px;
+    width: 426px;
+    margin-top: 40px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    text-align: center;
+    color: #666666;
+}
+
+#main p{
+    height: 194px;
+    width: 983px;
+    margin-top: 48px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+    text-align:center;
+    color: #000000;
+}
+
+#prefooter{
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: center;
+    position: relative;
+}
+
+#prefooter h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    /* or 133% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#prefooter button{
+    height: 150px;
+    width: 150px;
+    border: 0px;
+    background-image: url("play.svg");
+    border-radius: 50%;    
+}
+
+#playbutton
+
+
